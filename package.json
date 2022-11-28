@@ -1,0 +1,76 @@
+{
+  "name": "selfbar-frontend",
+  "version": "0.0.1",
+  "description": "Selfbar - Frontend React",
+  "homepage": "/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Block0-Blockstart/selfbar-frontend"
+  },
+  "author": {
+    "name" : "block0",
+    "email" : "info@block0.io",
+    "url" : "https://block0.io/"
+  },
+  "contributors": [
+    "Benoit Antoine (https://github.com/jaffaskree)",
+    "Aymeric Charles de la Brousse (https://github.com/aymericblock0)"
+  ],
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/keccak256": "^5.7.0",
+    "@ethersproject/strings": "^5.7.0",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.1.2",
+    "http-proxy-middleware": "^2.0.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.1.14",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.js\" --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "prettier": "^2.7.1"
+  }
+}
